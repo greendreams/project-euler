@@ -8,11 +8,11 @@ function multiplesOf3and5(number) {
   let values = [];
   for(let i=0; i<number; i++){
     if((i%3==0) || (i%5==0)){
-      values.push(i)
+      values.push(i);
     }
   }
-  values.forEach(addValues)
-  console.log(result)
+  values.forEach(addValues);
+  console.log(result);
 }
 
 function addValues(value) {
