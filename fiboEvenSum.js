@@ -21,7 +21,7 @@ function fiboEvenSum(n) {
             totalSum+=current;
         }
     }
-    console.log('Final Val is : ' + totalSum)
+    console.log('Final Val is : ' + totalSum);
   }
   
   fiboEvenSum(10);
